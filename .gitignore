@@ -28,3 +28,6 @@ node_modules/
 
 # IDEA config
 .idea/*
+
+# Ignore yaml
+*.yaml
