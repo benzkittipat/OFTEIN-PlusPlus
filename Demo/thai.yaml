@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Config
+clusters:
+  - name: "thai"
+    cluster:
+      server: "https://161.200.90.112/k8s/clusters/c-rc7bd"
+      certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJpRENDQ\
+      VM2Z0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQTdNUnd3R2dZRFZRUUtFeE5rZVc1aGJXbGoKY\
+      kdsemRHVnVaWEl0YjNKbk1Sc3dHUVlEVlFRREV4SmtlVzVoYldsamJHbHpkR1Z1WlhJdFkyRXdIa\
+      GNOTWpBeApNREEyTVRJeE9EQXdXaGNOTXpBeE1EQTBNVEl4T0RBd1dqQTdNUnd3R2dZRFZRUUtFe\
+      E5rZVc1aGJXbGpiR2x6CmRHVnVaWEl0YjNKbk1Sc3dHUVlEVlFRREV4SmtlVzVoYldsamJHbHpkR\
+      1Z1WlhJdFkyRXdXVEFUQmdjcWhrak8KUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVE3VUdIM2tFQzhkN\
+      201QkwyQmFCVWlvYllsYlNNRUhyTytNOUs0MnVBWgpnWFRocDJZNE03UGovdWJ4TDlCNDIxL05TM\
+      Tk0b0txTUxMeHdPUFlnbHlXbm95TXdJVEFPQmdOVkhROEJBZjhFCkJBTUNBcVF3RHdZRFZSMFRBU\
+      UgvQkFVd0F3RUIvekFLQmdncWhrak9QUVFEQWdOSUFEQkZBaUIzU3IwL2F1ajMKamZ2Z1dGS3F4R\
+      C9PejZQNmw5UHV3QUtLUFV0dmFlNGdVZ0loQUxydlhJL2pIajIzdXRDK2k5Nk1BdjgweFA3awpFc\
+      zA5SzZ6U0hnS0p3QkZiCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0="
+
+users:
+  - name: "thai"
+    user:
+      token: "kubeconfig-u-2n9dc:tnvg2g855gpd6bckl8wmlj2rfjrstjnzqthn2sm8cpwlp66gr6vkrn"
+
+
+contexts:
+  - name: "thai"
+    context:
+      user: "thai"
+      cluster: "thai"
+
+current-context: "thai"
