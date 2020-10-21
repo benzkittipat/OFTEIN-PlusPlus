@@ -64,7 +64,7 @@ this command will show K8S token (example .yml below)
         this should show you Hello world!
 
 <p align="center">
-  <img width="863" height="580" src="/Demo/hello_world.PNG"/>
+  <img width="863" height="80" src="/Demo/hello_world.PNG"/>
 </p>
 &nbsp;
         5. to launch workload in each cluster 
@@ -74,7 +74,7 @@ this command will show K8S token (example .yml below)
 
         if we take a look at Thailand Cluster 
 <p align="center">
-  <img width="863" height="580" src="/Demo/success.PNG"/>
+  <img width="863" height="480" src="/Demo/success.PNG"/>
 </p>
 
 &nbsp;  we can see that workload was created 
