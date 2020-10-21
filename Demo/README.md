@@ -12,7 +12,7 @@
 </h3> 
  
 <p align="center">
-  <img width="863" height="563" src="/OFTEIN-PlusPlus/Demo/pic/proposed pics.PNG"/>
+  <img width="863" height="563" src="/OFTEIN-PlusPlus/Demo/proposed pics.PNG"/>
 </p>
 
 
@@ -36,7 +36,7 @@ this command will show K8S token (example .yml below)
 <strong> please don't share file on github </strong>
 
 <p align="center">
-  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/pic/example_yaml.PNG"/>
+  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/example_yaml.PNG"/>
 </p>
 
 <h3>
@@ -64,7 +64,7 @@ this command will show K8S token (example .yml below)
         this should show you Hello world!
 
 <p align="center">
-  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/pic/hello_world.PNG"/>
+  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/hello_world.PNG"/>
 </p>
 &nbsp;
         5. to launch workload in each cluster 
@@ -74,7 +74,7 @@ this command will show K8S token (example .yml below)
 
         if we take a look at Thailand Cluster 
 <p align="center">
-  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/pic/success.PNG"/>
+  <img width="863" height="580" src="/OFTEIN-PlusPlus/Demo/success.PNG"/>
 </p>
 
 &nbsp;  we can see that workload was created 
