@@ -34,47 +34,47 @@ const init = async () => {
         {
             path: "/thai/create",
             method: "GET",
-            handler: () => createpod(k8sApiCthai, "deploy")
+            handler: () => createpod(k8sApiCthai, "default")
         },
         {
             path: "/korea/create",
             method: "GET",
-            handler: () => createpod(k8sApiCkorea, "deploy")
+            handler: () => createpod(k8sApiCkorea, "default")
         },
         {
             path: "/malay/create",
             method: "GET",
-            handler: () => createpod(k8sApiCmalay, "deploy")
+            handler: () => createpod(k8sApiCmalay, "default")
         },
         {
             path: "/thai/delete",
             method: "GET",
-            handler: () => deletepod(k8sApiCthai, "deploy")
+            handler: () => deletepod(k8sApiCthai, "default")
         },
         {
             path: "/korea/delete",
             method: "GET",
-            handler: () => deletepod(k8sApiCkorea, "deploy")
+            handler: () => deletepod(k8sApiCkorea, "default")
         },
         {
             path: "/malay/delete",
             method: "GET",
-            handler: () => deletepod(k8sApiCmalay, "deploy")
+            handler: () => deletepod(k8sApiCmalay, "default")
         },
         {
             path: "/thai/list",
             method: "GET",
-            handler: () => listpod(k8sApiCthai, "deploy")
+            handler: () => listpod(k8sApiCthai, "default")
         },
         {
             path: "/korea/list",
             method: "GET",
-            handler: () => listpod(k8sApiCkorea, "deploy")
+            handler: () => listpod(k8sApiCkorea, "default")
         },
         {
             path: "/malay/list",
             method: "GET",
-            handler: () => listpod(k8sApiCmalay, "deploy")
+            handler: () => listpod(k8sApiCmalay, "default")
         }
     ])
 
@@ -127,6 +127,7 @@ const createpod = (api, namespace) => api.createNamespacedPod(namespace, podtemp
         return res.body;
     })
     .catch((error) => {
+        console.log(error)
         return "Error: "+error.response.body;
     })
 
